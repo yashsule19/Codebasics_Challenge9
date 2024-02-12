@@ -31,8 +31,8 @@ ORDER BY store_count DESC;
 WITH promo_price_adjusted_qty AS (
 SELECT campaign_id,
 	CASE 
-		WHEN promo_type = '50% OFF' THEN base_price * 0.5
-		WHEN promo_type = '25% OFF' THEN base_price * 0.25
+	WHEN promo_type = '50% OFF' THEN base_price * 0.5
+	WHEN promo_type = '25% OFF' THEN base_price * 0.25
         WHEN promo_type = '33% OFF' THEN base_price * 0.33
         WHEN promo_type = 'BOGOF' THEN base_price * 0.5
         ELSE base_price - 500 
@@ -62,8 +62,8 @@ WITH adjusted_qty_table AS(
 SELECT category, SUM(`quantity_sold(before_promo)`) AS qty_before,
 	SUM(CASE
 		WHEN promo_type = 'BOGOF' THEN `quantity_sold(after_promo)` * 2
-        ELSE `quantity_sold(after_promo)`
-	END) AS qty_after
+        	ELSE `quantity_sold(after_promo)`
+		END) AS qty_after
 FROM fact_events AS e
 JOIN dim_products AS p
 ON e.product_code = p.product_code
@@ -85,8 +85,8 @@ FROM adjusted_qty_table;
 WITH promo_price_adjusted_qty AS (
 SELECT product_code,
 	CASE 
-		WHEN promo_type = '50% OFF' THEN base_price * 0.5
-		WHEN promo_type = '25% OFF' THEN base_price * 0.25
+	WHEN promo_type = '50% OFF' THEN base_price * 0.5
+	WHEN promo_type = '25% OFF' THEN base_price * 0.25
         WHEN promo_type = '33% OFF' THEN base_price * 0.33
         WHEN promo_type = 'BOGOF' THEN base_price * 0.5
         ELSE base_price - 500 
@@ -106,9 +106,8 @@ GROUP BY product_code
 ORDER BY product_code
 )
 
-
 SELECT product_name, category, 
-	   CONCAT(ROUND(((total_revenue_after_promotion - total_revenue_before_promotion) / total_revenue_before_promotion)*100, 2), ' %') AS IR
+	CONCAT(ROUND(((total_revenue_after_promotion - total_revenue_before_promotion) / total_revenue_before_promotion)*100, 2), ' %') AS IR
 FROM revenue AS r
 JOIN dim_products AS p
 ON r.product_code = p.product_code
