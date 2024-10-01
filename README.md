@@ -42,9 +42,17 @@ Along with it, there was a database file that contains all of these data tables 
 [Link](https://app.powerbi.com/view?r=eyJrIjoiN2ZkZjdhM2UtZDU4OC00YjFhLThlYTYtYWJjODRlZDI2NjcxIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ## Things I Learnt
-- 
+- **Fast - Moving Consumer Goods (FMCG) Domain terminologies:** Sales, Revenue, Incremental Revenue, Incremental Sales Unit, Sales and Revenue Contribution.
+- **Dashboarding Concepts**:
+    - New KPI Card for showing important Key Performance Indicators.
+    - Designing Toggle switch using bookmark and selection pane for navigating between the visuals.
+    - Using buttons for navigating between different pages of dashboard.
+    - Performing conditional formating inside matrix / tables.
+    - Inserting required filters / slicers.
+    - Using charts like stacked bar chart, donut chart, line chart.
 
 ## Key Insights
+
 
 ## Thank You
 - I would like to thank Dhaval Patel, Hemanand Vadivel and to the entire team of Codebasics for creating such challenge that give me hands-on practice on real-life projects. Also, would like to thank them for this unique opportunity that is leading me to build my resume projects.
