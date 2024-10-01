@@ -50,6 +50,7 @@ Along with it, there was a database file that contains all of these data tables 
     - Performing conditional formating inside matrix / tables.
     - Inserting required filters / slicers.
     - Using charts like stacked bar chart, donut chart, line chart.
+    - Implementing DAX in PowerBI.
 
 ## Key Insights
 
