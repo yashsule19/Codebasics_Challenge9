@@ -16,9 +16,9 @@ The following project was created for the Challenge # 9 conducted by Codebasics.
 - Tony decided to give this work to Peter Pandey who is the curious data analyst of AtliQ Mart. Since these insights will be directly reported to the sales director, Tony also provided some notes to Peter to support his work.
 
 ## Challenge given
-
+- 
 ## Tools
-
+- Dashboard [Link](https://app.powerbi.com/view?r=eyJrIjoiN2ZkZjdhM2UtZDU4OC00YjFhLThlYTYtYWJjODRlZDI2NjcxIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 ## Things I Learnt
 
 ## Key Insights
