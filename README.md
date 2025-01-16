@@ -105,9 +105,28 @@ Along with it, there was a database file that contains all of these data tables 
 ## Key Insights
 - The overall sales after applying promotions increased by 212% as well as the revenue had also increased by 95%.
 - There was a significant increased in sales during the Sankranti 2024 which accounts to 338% while it was just 97% in Diwali 2023 after applying promotions on the Atliq products.
-- In terms of revenue, there was a 2% difference between two promotions, it had rocketed by 96% during Sankranti 2024 and during Diwali 2023 it was around 94%.
+- In terms of revenue, there was a 2% difference between two promotions, it had rocketed by 96% during Sankranti 2024 and during Diwali 2023 it was around 94%. Interestingly, Diwali 2023 promotions generated revenue around ₹ 160 million while during Sankranti 2024 accounted for ₹ 114 million. 
 - **Store / Cities**:
-  - The top 10 stores came from the cities like Bengaluru, Chennai 
+  - The top 10 stores came from the cities like Bengaluru( 3 stores) , Chennai (3 stores), Coimbatore (2 stores), Madurai and Mysuru (1 store each). All these stores generated almost ₹ 3 - 4 million after applying promotions which is almost an increase of 120% - 126%.
+  - Almost 58% of revenue was generated from the stores located in the cities like Bengaluru, Chennai and Hyderabad. Next, 33% of revenue came from the cities like Mysuru, Coimbatore, Visakhapatnam and Madurai. Remaining three cities contributed towards 9% of generated revenue. A similar pattern was seen towards sales contribution.
+  - Eventhough sales had increased after applying promotions, the bottom 10 stores located in 7 different cities, the ISU (Incremental Sales Unit) ranges between 140% - 160% which was **1.7 times less** compared to the ISU of top 10 stores located in 5 different cities.
+- **Promotions**:
+  - BOGOF (Buy One Get One Free) and 500 cashback were the most successful promotions both in terms of sales and revenue compared to discounted offers (25% Off, 33% Off and 50% Off).
+ 
+- **Categories**:
+  - Sales:
+    - Grocery & staples category outperformed among the other 4 categories with a whopping 377k units sold after applying promotions. Also, BOGOF promotion was more successfully than 25% Off and 33% Off.
+    - Home Appliances category saw an increased of almost 628% after applying promotions.
+    - Personal care was the least performing category during that period. It was a complete failure for both the promotions 25% Off and 50% Off.
+    - BOGOF promotion was more successfully than 25% Off promotion in the Home Care category.
+  - Revenue:
+    - Combo1 category stood best among the 5 categories that generated a revenue of ₹ 158 million after applying promotions.
+    - Personal Care was least performing category that had generated revenue of ₹ 1 million after apply promotion which was half the revenue without the promotion.
+    - Home Appliances category had escalted around 265% more after applying promotions.
+    - 25% Off promotion was the worst performing promotion for categories such as Personal Care, Home Care and Grocery & Staples.     
 
+- **Products**:
+
+  
 ## Thank You
 - I would like to thank Dhaval Patel, Hemanand Vadivel and to the entire team of Codebasics for creating such challenge that give me hands-on practice on real-life projects. Also, would like to thank them for this unique opportunity that is leading me to build my resume projects.
