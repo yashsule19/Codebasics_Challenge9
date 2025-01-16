@@ -91,8 +91,8 @@ Along with it, there was a database file that contains all of these data tables 
 - The overall sales after applying promotions increased by 212% as well as the revenue had also increased by 95%.
 - There was a significant increased in sales during the Sankranti 2024 which accounts to 338% while it was just 97% in Diwali 2023 after applying promotions on the Atliq products.
 - In terms of revenue, there was a 2% difference between two promotions, it had rocketed by 96% during Sankranti 2024 and during Diwali 2023 it was around 94%.
-- Store / Cities:
-      - The top 10 stores came from the cities like Bengaluru, Chennai    
+- **Store / Cities**:
+      - The top 10 stores came from the cities like Bengaluru, Chennai 
 
 ## Thank You
 - I would like to thank Dhaval Patel, Hemanand Vadivel and to the entire team of Codebasics for creating such challenge that give me hands-on practice on real-life projects. Also, would like to thank them for this unique opportunity that is leading me to build my resume projects.
