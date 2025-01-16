@@ -77,22 +77,37 @@ Along with it, there was a database file that contains all of these data tables 
 
 - **BR3**: Generate a report that displays each campaign along with the total revenue generated before and after the campaign? The report includes three key fields: campaign_name, totaI_revenue(before_promotion), totaI_revenue(after_promotion). This report should help in evaluating the financial impact of our promotional campaigns. (Display the values in millions)
 
-
+| campaign_id | total_revenue_before_promotion | total_after_before_promotion |
+| :------------------- | :------------------- | :------------------- |
+| CAMP_DIW_01 | 82.57 M | 159.88 M |
+| CAMP_SAN_01 |58.13 M | 113.98 M |
 
 - **BR4**: Produce a report that calculates the Incremental Sold Quantity (ISU%) for each category during the Diwali campaign. Additionally, provide rankings for the categories based on their ISU%. The report will include three key fields: category, isu%, and rank order. This information will assist in assessing the category-wise success and impact of the Diwali campaign on incremental sales.
 
-
+| category | ISU | rank_order |
+| :------------------- | :------------------- | :------------------- |
+| Home Appliances | 588.45 % | 1 |
+| Home Care | 203.14 % | 2 |
+| Combo1 | 202.36 % | 3 |
+| Personal Care | 31.06 % | 4 |
+| Grocery & Staples | 18.05 % | 5 |
 
 - **BR5**: Create a report featuring the Top 5 products, ranked by Incremental Revenue Percentage (IR%), across all campaigns. The report will provide essential information including product name, category, and ir%. This analysis helps identify the most successful products in terms of incremental revenue across our campaigns, assisting in product optimization.
 
-
+| product_name | category | IR |
+| :------------------- | :------------------- | :------------------- |
+| Atliq_waterproof_Immersion_Rod | Home Appliances | 266.06 % |
+| Atliq_High_Glo_15W_LED_Bulb | Home Appliances | 262.28 % |
+| Atliq_Double_Bedsheet_set | Home Care | 258.4 % |
+| Atliq_Curtains | Home Care | 255.07 % |
+| Atliq_Farm_Chakki_Atta (1KG) | Grocery & Staples | 143.69 % |
 
 ## Key Insights
 - The overall sales after applying promotions increased by 212% as well as the revenue had also increased by 95%.
 - There was a significant increased in sales during the Sankranti 2024 which accounts to 338% while it was just 97% in Diwali 2023 after applying promotions on the Atliq products.
 - In terms of revenue, there was a 2% difference between two promotions, it had rocketed by 96% during Sankranti 2024 and during Diwali 2023 it was around 94%.
 - **Store / Cities**:
-      - The top 10 stores came from the cities like Bengaluru, Chennai 
+  - The top 10 stores came from the cities like Bengaluru, Chennai 
 
 ## Thank You
 - I would like to thank Dhaval Patel, Hemanand Vadivel and to the entire team of Codebasics for creating such challenge that give me hands-on practice on real-life projects. Also, would like to thank them for this unique opportunity that is leading me to build my resume projects.
